@@ -9,13 +9,11 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class M2I_Sign extends PageObject{
+public class Jo2024 extends PageObject{
 
 
     String Date = DateTimeFormatter.ofPattern("MM/dd/yyyy").format(LocalDateTime.now()).toLowerCase();
